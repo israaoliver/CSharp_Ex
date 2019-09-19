@@ -1,0 +1,4 @@
+C:\Users\44346823858\Documents\Exercicios\nota_funcional_com_switch_case\obj\Debug\netcoreapp2.2\nota_funcional_com_switch_case.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\nota_funcional_com_switch_case\obj\Debug\netcoreapp2.2\nota_funcional_com_switch_case.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\nota_funcional_com_switch_case\obj\Debug\netcoreapp2.2\nota_funcional_com_switch_case.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\nota_funcional_com_switch_case\obj\Debug\netcoreapp2.2\nota_funcional_com_switch_case.AssemblyInfo.cs

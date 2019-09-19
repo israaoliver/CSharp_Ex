@@ -1,0 +1,11 @@
+C:\Users\44346823858\Documents\Exercicios\nota-funcional\bin\Debug\netcoreapp2.2\nota-funcional.deps.json
+C:\Users\44346823858\Documents\Exercicios\nota-funcional\bin\Debug\netcoreapp2.2\nota-funcional.runtimeconfig.json
+C:\Users\44346823858\Documents\Exercicios\nota-funcional\bin\Debug\netcoreapp2.2\nota-funcional.runtimeconfig.dev.json
+C:\Users\44346823858\Documents\Exercicios\nota-funcional\bin\Debug\netcoreapp2.2\nota-funcional.dll
+C:\Users\44346823858\Documents\Exercicios\nota-funcional\bin\Debug\netcoreapp2.2\nota-funcional.pdb
+C:\Users\44346823858\Documents\Exercicios\nota-funcional\obj\Debug\netcoreapp2.2\nota-funcional.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\nota-funcional\obj\Debug\netcoreapp2.2\nota-funcional.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\nota-funcional\obj\Debug\netcoreapp2.2\nota-funcional.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\nota-funcional\obj\Debug\netcoreapp2.2\nota-funcional.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\nota-funcional\obj\Debug\netcoreapp2.2\nota-funcional.dll
+C:\Users\44346823858\Documents\Exercicios\nota-funcional\obj\Debug\netcoreapp2.2\nota-funcional.pdb
