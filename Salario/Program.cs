@@ -22,6 +22,8 @@ namespace Salario
                 Console.WriteLine("Seu salario esta ok");
             }          
 
+            
+
         }
     }
 }

@@ -6,10 +6,8 @@ namespace Notas
     {
         static void Main(string[] args)
         {
-            int num1 = 0;
-            int num2 = 0;
-            int num3 = 0;
-            int num4 = 0;
+            float num1, num2, num3, num4, media;
+            
 
             Console.Write("Digite a nota do 1ºBimestre: ");
             num1 = int.Parse(Console.ReadLine());
@@ -20,8 +18,17 @@ namespace Notas
             Console.Write("Digite a nota do 4ºBimestre: ");
             num4 = int.Parse(Console.ReadLine());
 
-            Console.Write("Media Geral");
-            Console.Write($" = {(num1 + num2 + num3 + num4) / 4}");
+            media = (num1 + num2 + num3 + num4) / 4;
+
+            Console.Write("Media Geral: " + media);
+
+            if (media >=7)
+            {
+                Console.WriteLine(" Passou");
+            } else 
+            {
+                Console.WriteLine(" Reprovado");
+            }
 
         }
     }

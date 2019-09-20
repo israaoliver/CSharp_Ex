@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 
 namespace Calculadora_funcional
 {
@@ -19,6 +19,11 @@ namespace Calculadora_funcional
            num2 = int.Parse(Console.ReadLine());
            Console.WriteLine("Digite o operador:");
            oper = Console.ReadLine();
+
+           while(!(oper == "+"||oper =="-" ||oper =="*"||oper =="/"||oper=="%")){
+               Console.WriteLine("Digite uma operão valida!!!!");
+               oper = Console.ReadLine();
+           }
 
            switch (oper)
            {
