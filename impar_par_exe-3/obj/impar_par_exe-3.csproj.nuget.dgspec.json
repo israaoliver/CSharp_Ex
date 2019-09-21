@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\44346823858\\Documents\\Exercicios\\impar_par_exe-3\\impar_par_exe-3.csproj": {}
+    "C:\\Users\\Junior\\Documents\\Docs\\Exercicios\\impar_par_exe-3\\impar_par_exe-3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\44346823858\\Documents\\Exercicios\\impar_par_exe-3\\impar_par_exe-3.csproj": {
+    "C:\\Users\\Junior\\Documents\\Docs\\Exercicios\\impar_par_exe-3\\impar_par_exe-3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\44346823858\\Documents\\Exercicios\\impar_par_exe-3\\impar_par_exe-3.csproj",
+        "projectUniqueName": "C:\\Users\\Junior\\Documents\\Docs\\Exercicios\\impar_par_exe-3\\impar_par_exe-3.csproj",
         "projectName": "impar_par_exe-3",
-        "projectPath": "C:\\Users\\44346823858\\Documents\\Exercicios\\impar_par_exe-3\\impar_par_exe-3.csproj",
-        "packagesPath": "C:\\Users\\44346823858\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\44346823858\\Documents\\Exercicios\\impar_par_exe-3\\obj\\",
+        "projectPath": "C:\\Users\\Junior\\Documents\\Docs\\Exercicios\\impar_par_exe-3\\impar_par_exe-3.csproj",
+        "packagesPath": "C:\\Users\\Junior\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Junior\\Documents\\Docs\\Exercicios\\impar_par_exe-3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\44346823858\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Junior\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

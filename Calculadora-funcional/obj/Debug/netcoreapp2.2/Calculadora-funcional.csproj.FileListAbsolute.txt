@@ -9,3 +9,14 @@ C:\Users\44346823858\Documents\Exercicios\Calculadora-funcional\bin\Debug\netcor
 C:\Users\44346823858\Documents\Exercicios\Calculadora-funcional\bin\Debug\netcoreapp2.2\Calculadora-funcional.pdb
 C:\Users\44346823858\Documents\Exercicios\Calculadora-funcional\obj\Debug\netcoreapp2.2\Calculadora-funcional.dll
 C:\Users\44346823858\Documents\Exercicios\Calculadora-funcional\obj\Debug\netcoreapp2.2\Calculadora-funcional.pdb
+C:\Users\Junior\Documents\Docs\Exercicios\Calculadora-funcional\bin\Debug\netcoreapp2.2\Calculadora-funcional.deps.json
+C:\Users\Junior\Documents\Docs\Exercicios\Calculadora-funcional\bin\Debug\netcoreapp2.2\Calculadora-funcional.runtimeconfig.json
+C:\Users\Junior\Documents\Docs\Exercicios\Calculadora-funcional\bin\Debug\netcoreapp2.2\Calculadora-funcional.runtimeconfig.dev.json
+C:\Users\Junior\Documents\Docs\Exercicios\Calculadora-funcional\bin\Debug\netcoreapp2.2\Calculadora-funcional.dll
+C:\Users\Junior\Documents\Docs\Exercicios\Calculadora-funcional\bin\Debug\netcoreapp2.2\Calculadora-funcional.pdb
+C:\Users\Junior\Documents\Docs\Exercicios\Calculadora-funcional\obj\Debug\netcoreapp2.2\Calculadora-funcional.csprojAssemblyReference.cache
+C:\Users\Junior\Documents\Docs\Exercicios\Calculadora-funcional\obj\Debug\netcoreapp2.2\Calculadora-funcional.csproj.CoreCompileInputs.cache
+C:\Users\Junior\Documents\Docs\Exercicios\Calculadora-funcional\obj\Debug\netcoreapp2.2\Calculadora-funcional.AssemblyInfoInputs.cache
+C:\Users\Junior\Documents\Docs\Exercicios\Calculadora-funcional\obj\Debug\netcoreapp2.2\Calculadora-funcional.AssemblyInfo.cs
+C:\Users\Junior\Documents\Docs\Exercicios\Calculadora-funcional\obj\Debug\netcoreapp2.2\Calculadora-funcional.dll
+C:\Users\Junior\Documents\Docs\Exercicios\Calculadora-funcional\obj\Debug\netcoreapp2.2\Calculadora-funcional.pdb

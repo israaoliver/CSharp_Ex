@@ -686,30 +686,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\44346823858\\.nuget\\packages\\": {},
+    "C:\\Users\\Junior\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\44346823858\\Documents\\Exercicios\\Calculadora-funcional\\Calculadora-funcional.csproj",
+      "projectUniqueName": "C:\\Users\\Junior\\Documents\\Docs\\Exercicios\\Calculadora-funcional\\Calculadora-funcional.csproj",
       "projectName": "Calculadora-funcional",
-      "projectPath": "C:\\Users\\44346823858\\Documents\\Exercicios\\Calculadora-funcional\\Calculadora-funcional.csproj",
-      "packagesPath": "C:\\Users\\44346823858\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\44346823858\\Documents\\Exercicios\\Calculadora-funcional\\obj\\",
+      "projectPath": "C:\\Users\\Junior\\Documents\\Docs\\Exercicios\\Calculadora-funcional\\Calculadora-funcional.csproj",
+      "packagesPath": "C:\\Users\\Junior\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Junior\\Documents\\Docs\\Exercicios\\Calculadora-funcional\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\44346823858\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Junior\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
