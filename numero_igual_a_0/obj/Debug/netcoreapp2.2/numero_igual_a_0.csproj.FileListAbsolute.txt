@@ -9,14 +9,3 @@ C:\Users\44346823858\Documents\Exercicios\numero_igual_a_0\obj\Debug\netcoreapp2
 C:\Users\44346823858\Documents\Exercicios\numero_igual_a_0\obj\Debug\netcoreapp2.2\numero_igual_a_0.AssemblyInfo.cs
 C:\Users\44346823858\Documents\Exercicios\numero_igual_a_0\obj\Debug\netcoreapp2.2\numero_igual_a_0.dll
 C:\Users\44346823858\Documents\Exercicios\numero_igual_a_0\obj\Debug\netcoreapp2.2\numero_igual_a_0.pdb
-C:\Users\Junior\Documents\Docs\Exercicios\numero_igual_a_0\bin\Debug\netcoreapp2.2\numero_igual_a_0.deps.json
-C:\Users\Junior\Documents\Docs\Exercicios\numero_igual_a_0\bin\Debug\netcoreapp2.2\numero_igual_a_0.runtimeconfig.json
-C:\Users\Junior\Documents\Docs\Exercicios\numero_igual_a_0\bin\Debug\netcoreapp2.2\numero_igual_a_0.runtimeconfig.dev.json
-C:\Users\Junior\Documents\Docs\Exercicios\numero_igual_a_0\bin\Debug\netcoreapp2.2\numero_igual_a_0.dll
-C:\Users\Junior\Documents\Docs\Exercicios\numero_igual_a_0\bin\Debug\netcoreapp2.2\numero_igual_a_0.pdb
-C:\Users\Junior\Documents\Docs\Exercicios\numero_igual_a_0\obj\Debug\netcoreapp2.2\numero_igual_a_0.csprojAssemblyReference.cache
-C:\Users\Junior\Documents\Docs\Exercicios\numero_igual_a_0\obj\Debug\netcoreapp2.2\numero_igual_a_0.csproj.CoreCompileInputs.cache
-C:\Users\Junior\Documents\Docs\Exercicios\numero_igual_a_0\obj\Debug\netcoreapp2.2\numero_igual_a_0.AssemblyInfoInputs.cache
-C:\Users\Junior\Documents\Docs\Exercicios\numero_igual_a_0\obj\Debug\netcoreapp2.2\numero_igual_a_0.AssemblyInfo.cs
-C:\Users\Junior\Documents\Docs\Exercicios\numero_igual_a_0\obj\Debug\netcoreapp2.2\numero_igual_a_0.dll
-C:\Users\Junior\Documents\Docs\Exercicios\numero_igual_a_0\obj\Debug\netcoreapp2.2\numero_igual_a_0.pdb

@@ -7,9 +7,9 @@ namespace Calculadora_funcional
 
         static void Main(string[] args)
         {
-            double num1 = 0;
-            double num2 = 0;
-            double calculo = 0;
+            int num1 = 0;
+            int num2 = 0;
+            int calculo = 0;
             String oper;
             
 
@@ -42,7 +42,7 @@ namespace Calculadora_funcional
                case "*":
                
                 calculo = num1 * num2;
-                Console.WriteLine($"{num1}x{num2} = " + calculo);
+                Console.WriteLine($"{num1}*{num2} = " + calculo);
                 break;
                
                case "/":

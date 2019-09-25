@@ -9,14 +9,3 @@ C:\Users\44346823858\Documents\Exercicios\impar_par_exe-3\bin\Debug\netcoreapp2.
 C:\Users\44346823858\Documents\Exercicios\impar_par_exe-3\bin\Debug\netcoreapp2.2\impar_par_exe-3.pdb
 C:\Users\44346823858\Documents\Exercicios\impar_par_exe-3\obj\Debug\netcoreapp2.2\impar_par_exe-3.dll
 C:\Users\44346823858\Documents\Exercicios\impar_par_exe-3\obj\Debug\netcoreapp2.2\impar_par_exe-3.pdb
-C:\Users\Junior\Documents\Docs\Exercicios\impar_par_exe-3\bin\Debug\netcoreapp2.2\impar_par_exe-3.deps.json
-C:\Users\Junior\Documents\Docs\Exercicios\impar_par_exe-3\bin\Debug\netcoreapp2.2\impar_par_exe-3.runtimeconfig.json
-C:\Users\Junior\Documents\Docs\Exercicios\impar_par_exe-3\bin\Debug\netcoreapp2.2\impar_par_exe-3.runtimeconfig.dev.json
-C:\Users\Junior\Documents\Docs\Exercicios\impar_par_exe-3\bin\Debug\netcoreapp2.2\impar_par_exe-3.dll
-C:\Users\Junior\Documents\Docs\Exercicios\impar_par_exe-3\bin\Debug\netcoreapp2.2\impar_par_exe-3.pdb
-C:\Users\Junior\Documents\Docs\Exercicios\impar_par_exe-3\obj\Debug\netcoreapp2.2\impar_par_exe-3.csprojAssemblyReference.cache
-C:\Users\Junior\Documents\Docs\Exercicios\impar_par_exe-3\obj\Debug\netcoreapp2.2\impar_par_exe-3.csproj.CoreCompileInputs.cache
-C:\Users\Junior\Documents\Docs\Exercicios\impar_par_exe-3\obj\Debug\netcoreapp2.2\impar_par_exe-3.AssemblyInfoInputs.cache
-C:\Users\Junior\Documents\Docs\Exercicios\impar_par_exe-3\obj\Debug\netcoreapp2.2\impar_par_exe-3.AssemblyInfo.cs
-C:\Users\Junior\Documents\Docs\Exercicios\impar_par_exe-3\obj\Debug\netcoreapp2.2\impar_par_exe-3.dll
-C:\Users\Junior\Documents\Docs\Exercicios\impar_par_exe-3\obj\Debug\netcoreapp2.2\impar_par_exe-3.pdb

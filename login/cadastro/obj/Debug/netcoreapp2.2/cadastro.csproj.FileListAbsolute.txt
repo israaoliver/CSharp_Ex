@@ -1,0 +1,11 @@
+C:\Users\44346823858\Documents\Exercicios\login\cadastro\bin\Debug\netcoreapp2.2\cadastro.deps.json
+C:\Users\44346823858\Documents\Exercicios\login\cadastro\bin\Debug\netcoreapp2.2\cadastro.runtimeconfig.json
+C:\Users\44346823858\Documents\Exercicios\login\cadastro\bin\Debug\netcoreapp2.2\cadastro.runtimeconfig.dev.json
+C:\Users\44346823858\Documents\Exercicios\login\cadastro\bin\Debug\netcoreapp2.2\cadastro.dll
+C:\Users\44346823858\Documents\Exercicios\login\cadastro\bin\Debug\netcoreapp2.2\cadastro.pdb
+C:\Users\44346823858\Documents\Exercicios\login\cadastro\obj\Debug\netcoreapp2.2\cadastro.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\login\cadastro\obj\Debug\netcoreapp2.2\cadastro.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\login\cadastro\obj\Debug\netcoreapp2.2\cadastro.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\login\cadastro\obj\Debug\netcoreapp2.2\cadastro.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\login\cadastro\obj\Debug\netcoreapp2.2\cadastro.dll
+C:\Users\44346823858\Documents\Exercicios\login\cadastro\obj\Debug\netcoreapp2.2\cadastro.pdb

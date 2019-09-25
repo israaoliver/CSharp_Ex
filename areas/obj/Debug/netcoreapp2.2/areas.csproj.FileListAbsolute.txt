@@ -1,0 +1,11 @@
+C:\Users\44346823858\Documents\Exercicios\areas\obj\Debug\netcoreapp2.2\areas.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\areas\obj\Debug\netcoreapp2.2\areas.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\areas\obj\Debug\netcoreapp2.2\areas.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\areas\obj\Debug\netcoreapp2.2\areas.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\areas\bin\Debug\netcoreapp2.2\areas.deps.json
+C:\Users\44346823858\Documents\Exercicios\areas\bin\Debug\netcoreapp2.2\areas.runtimeconfig.json
+C:\Users\44346823858\Documents\Exercicios\areas\bin\Debug\netcoreapp2.2\areas.runtimeconfig.dev.json
+C:\Users\44346823858\Documents\Exercicios\areas\bin\Debug\netcoreapp2.2\areas.dll
+C:\Users\44346823858\Documents\Exercicios\areas\bin\Debug\netcoreapp2.2\areas.pdb
+C:\Users\44346823858\Documents\Exercicios\areas\obj\Debug\netcoreapp2.2\areas.dll
+C:\Users\44346823858\Documents\Exercicios\areas\obj\Debug\netcoreapp2.2\areas.pdb

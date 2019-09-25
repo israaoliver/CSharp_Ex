@@ -9,14 +9,3 @@ C:\Users\44346823858\Documents\Exercicios\Impar_par\obj\Debug\netcoreapp2.2\Impa
 C:\Users\44346823858\Documents\Exercicios\Impar_par\obj\Debug\netcoreapp2.2\Impar_par.AssemblyInfo.cs
 C:\Users\44346823858\Documents\Exercicios\Impar_par\obj\Debug\netcoreapp2.2\Impar_par.dll
 C:\Users\44346823858\Documents\Exercicios\Impar_par\obj\Debug\netcoreapp2.2\Impar_par.pdb
-C:\Users\Junior\Documents\Docs\Exercicios\Impar_par\bin\Debug\netcoreapp2.2\Impar_par.deps.json
-C:\Users\Junior\Documents\Docs\Exercicios\Impar_par\bin\Debug\netcoreapp2.2\Impar_par.runtimeconfig.json
-C:\Users\Junior\Documents\Docs\Exercicios\Impar_par\bin\Debug\netcoreapp2.2\Impar_par.runtimeconfig.dev.json
-C:\Users\Junior\Documents\Docs\Exercicios\Impar_par\bin\Debug\netcoreapp2.2\Impar_par.dll
-C:\Users\Junior\Documents\Docs\Exercicios\Impar_par\bin\Debug\netcoreapp2.2\Impar_par.pdb
-C:\Users\Junior\Documents\Docs\Exercicios\Impar_par\obj\Debug\netcoreapp2.2\Impar_par.csprojAssemblyReference.cache
-C:\Users\Junior\Documents\Docs\Exercicios\Impar_par\obj\Debug\netcoreapp2.2\Impar_par.csproj.CoreCompileInputs.cache
-C:\Users\Junior\Documents\Docs\Exercicios\Impar_par\obj\Debug\netcoreapp2.2\Impar_par.AssemblyInfoInputs.cache
-C:\Users\Junior\Documents\Docs\Exercicios\Impar_par\obj\Debug\netcoreapp2.2\Impar_par.AssemblyInfo.cs
-C:\Users\Junior\Documents\Docs\Exercicios\Impar_par\obj\Debug\netcoreapp2.2\Impar_par.dll
-C:\Users\Junior\Documents\Docs\Exercicios\Impar_par\obj\Debug\netcoreapp2.2\Impar_par.pdb

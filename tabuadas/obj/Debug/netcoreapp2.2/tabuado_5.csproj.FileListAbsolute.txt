@@ -20,14 +20,3 @@ C:\Users\44346823858\Documents\Exercicios\tabuadas\obj\Debug\netcoreapp2.2\tabua
 C:\Users\44346823858\Documents\Exercicios\tabuadas\obj\Debug\netcoreapp2.2\tabuado_5.AssemblyInfo.cs
 C:\Users\44346823858\Documents\Exercicios\tabuadas\obj\Debug\netcoreapp2.2\tabuado_5.dll
 C:\Users\44346823858\Documents\Exercicios\tabuadas\obj\Debug\netcoreapp2.2\tabuado_5.pdb
-C:\Users\Junior\Documents\Docs\Exercicios\tabuadas\obj\Debug\netcoreapp2.2\tabuado_5.csprojAssemblyReference.cache
-C:\Users\Junior\Documents\Docs\Exercicios\tabuadas\obj\Debug\netcoreapp2.2\tabuado_5.csproj.CoreCompileInputs.cache
-C:\Users\Junior\Documents\Docs\Exercicios\tabuadas\obj\Debug\netcoreapp2.2\tabuado_5.AssemblyInfoInputs.cache
-C:\Users\Junior\Documents\Docs\Exercicios\tabuadas\obj\Debug\netcoreapp2.2\tabuado_5.AssemblyInfo.cs
-C:\Users\Junior\Documents\Docs\Exercicios\tabuadas\obj\Debug\netcoreapp2.2\tabuado_5.dll
-C:\Users\Junior\Documents\Docs\Exercicios\tabuadas\obj\Debug\netcoreapp2.2\tabuado_5.pdb
-C:\Users\Junior\Documents\Docs\Exercicios\tabuadas\bin\Debug\netcoreapp2.2\tabuado_5.deps.json
-C:\Users\Junior\Documents\Docs\Exercicios\tabuadas\bin\Debug\netcoreapp2.2\tabuado_5.runtimeconfig.json
-C:\Users\Junior\Documents\Docs\Exercicios\tabuadas\bin\Debug\netcoreapp2.2\tabuado_5.runtimeconfig.dev.json
-C:\Users\Junior\Documents\Docs\Exercicios\tabuadas\bin\Debug\netcoreapp2.2\tabuado_5.dll
-C:\Users\Junior\Documents\Docs\Exercicios\tabuadas\bin\Debug\netcoreapp2.2\tabuado_5.pdb
