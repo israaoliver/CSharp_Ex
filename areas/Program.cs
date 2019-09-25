@@ -85,10 +85,9 @@ namespace areas
                     default:
                     Console.WriteLine("Coloque uma das opções pedidas!!");
                     break;
-
-                
-
                 }
+                Console.WriteLine("Digite 0 para encerrar as operações ou qualquer outro digito para continuar.");
+                escolha = Console.ReadLine();
 
 
             
