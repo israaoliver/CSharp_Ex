@@ -1,0 +1,11 @@
+C:\Users\44346823858\Documents\Exercicios\1 - matriz\media_temperatura\bin\Debug\netcoreapp2.2\media_temperatura.deps.json
+C:\Users\44346823858\Documents\Exercicios\1 - matriz\media_temperatura\bin\Debug\netcoreapp2.2\media_temperatura.runtimeconfig.json
+C:\Users\44346823858\Documents\Exercicios\1 - matriz\media_temperatura\bin\Debug\netcoreapp2.2\media_temperatura.runtimeconfig.dev.json
+C:\Users\44346823858\Documents\Exercicios\1 - matriz\media_temperatura\bin\Debug\netcoreapp2.2\media_temperatura.dll
+C:\Users\44346823858\Documents\Exercicios\1 - matriz\media_temperatura\bin\Debug\netcoreapp2.2\media_temperatura.pdb
+C:\Users\44346823858\Documents\Exercicios\1 - matriz\media_temperatura\obj\Debug\netcoreapp2.2\media_temperatura.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\1 - matriz\media_temperatura\obj\Debug\netcoreapp2.2\media_temperatura.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\1 - matriz\media_temperatura\obj\Debug\netcoreapp2.2\media_temperatura.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\1 - matriz\media_temperatura\obj\Debug\netcoreapp2.2\media_temperatura.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\1 - matriz\media_temperatura\obj\Debug\netcoreapp2.2\media_temperatura.dll
+C:\Users\44346823858\Documents\Exercicios\1 - matriz\media_temperatura\obj\Debug\netcoreapp2.2\media_temperatura.pdb

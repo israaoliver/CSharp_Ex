@@ -6,16 +6,27 @@ namespace par_imapr
     {
         static void Main(string[] args)
         {
-            int n1,n2,n3,n4,n5,n6;
-
+            int pares = 0;
+            int impares = 0;
             int[] numeros = new int [6];
             
          
 
-            foreach(int numero in numeros) {
+            for (int i = 0; i < 6; i++)
+            {
+                Console.WriteLine("Digite um numero");
+                numeros[i] = Convert.ToInt32(Console.ReadLine());
                 
-
+                if ((numeros[i] % 2) == 0)
+                {
+                   pares += 1;
+                }
+                else
+                {
+                    impares += 1;
+                }
             }
+            Console.WriteLine($"Números pares: {pares} || Números ímpares: {impares}");
 
    
 
