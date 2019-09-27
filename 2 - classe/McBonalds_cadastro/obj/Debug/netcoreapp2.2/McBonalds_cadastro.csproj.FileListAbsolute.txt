@@ -1,0 +1,11 @@
+C:\Users\44346823858\Documents\Exercicios\2 - classe\McBonalds_cadastro\bin\Debug\netcoreapp2.2\McBonalds_cadastro.deps.json
+C:\Users\44346823858\Documents\Exercicios\2 - classe\McBonalds_cadastro\bin\Debug\netcoreapp2.2\McBonalds_cadastro.runtimeconfig.json
+C:\Users\44346823858\Documents\Exercicios\2 - classe\McBonalds_cadastro\bin\Debug\netcoreapp2.2\McBonalds_cadastro.runtimeconfig.dev.json
+C:\Users\44346823858\Documents\Exercicios\2 - classe\McBonalds_cadastro\bin\Debug\netcoreapp2.2\McBonalds_cadastro.dll
+C:\Users\44346823858\Documents\Exercicios\2 - classe\McBonalds_cadastro\bin\Debug\netcoreapp2.2\McBonalds_cadastro.pdb
+C:\Users\44346823858\Documents\Exercicios\2 - classe\McBonalds_cadastro\obj\Debug\netcoreapp2.2\McBonalds_cadastro.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\2 - classe\McBonalds_cadastro\obj\Debug\netcoreapp2.2\McBonalds_cadastro.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\2 - classe\McBonalds_cadastro\obj\Debug\netcoreapp2.2\McBonalds_cadastro.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\2 - classe\McBonalds_cadastro\obj\Debug\netcoreapp2.2\McBonalds_cadastro.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\2 - classe\McBonalds_cadastro\obj\Debug\netcoreapp2.2\McBonalds_cadastro.dll
+C:\Users\44346823858\Documents\Exercicios\2 - classe\McBonalds_cadastro\obj\Debug\netcoreapp2.2\McBonalds_cadastro.pdb
