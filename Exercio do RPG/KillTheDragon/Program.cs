@@ -131,7 +131,7 @@ namespace KillTheDragon
                                 System.Console.WriteLine($"HP Dragon: {dragon.Life}");
                                 System.Console.WriteLine($"HP Warrior: {warrior.Life}");
                             } else{
-                                System.Console.WriteLine($"{dragon.Name.ToUpper()}: is your fire going out!?");
+                                System.Console.WriteLine($"{warrior.Name.ToUpper()}: is your fire going out!?");
                         
                             } 
                             

@@ -9,3 +9,13 @@ C:\Users\44346823858\Documents\Exercicios\Exercio do RPG\KillTheDragon\bin\Debug
 C:\Users\44346823858\Documents\Exercicios\Exercio do RPG\KillTheDragon\bin\Debug\netcoreapp2.2\KillTheDragon.pdb
 C:\Users\44346823858\Documents\Exercicios\Exercio do RPG\KillTheDragon\obj\Debug\netcoreapp2.2\KillTheDragon.dll
 C:\Users\44346823858\Documents\Exercicios\Exercio do RPG\KillTheDragon\obj\Debug\netcoreapp2.2\KillTheDragon.pdb
+C:\Users\Junior\Documents\Docs\Exercicios\Exercio do RPG\KillTheDragon\bin\Debug\netcoreapp2.2\KillTheDragon.deps.json
+C:\Users\Junior\Documents\Docs\Exercicios\Exercio do RPG\KillTheDragon\bin\Debug\netcoreapp2.2\KillTheDragon.runtimeconfig.json
+C:\Users\Junior\Documents\Docs\Exercicios\Exercio do RPG\KillTheDragon\bin\Debug\netcoreapp2.2\KillTheDragon.runtimeconfig.dev.json
+C:\Users\Junior\Documents\Docs\Exercicios\Exercio do RPG\KillTheDragon\bin\Debug\netcoreapp2.2\KillTheDragon.dll
+C:\Users\Junior\Documents\Docs\Exercicios\Exercio do RPG\KillTheDragon\bin\Debug\netcoreapp2.2\KillTheDragon.pdb
+C:\Users\Junior\Documents\Docs\Exercicios\Exercio do RPG\KillTheDragon\obj\Debug\netcoreapp2.2\KillTheDragon.csprojAssemblyReference.cache
+C:\Users\Junior\Documents\Docs\Exercicios\Exercio do RPG\KillTheDragon\obj\Debug\netcoreapp2.2\KillTheDragon.AssemblyInfoInputs.cache
+C:\Users\Junior\Documents\Docs\Exercicios\Exercio do RPG\KillTheDragon\obj\Debug\netcoreapp2.2\KillTheDragon.AssemblyInfo.cs
+C:\Users\Junior\Documents\Docs\Exercicios\Exercio do RPG\KillTheDragon\obj\Debug\netcoreapp2.2\KillTheDragon.dll
+C:\Users\Junior\Documents\Docs\Exercicios\Exercio do RPG\KillTheDragon\obj\Debug\netcoreapp2.2\KillTheDragon.pdb
