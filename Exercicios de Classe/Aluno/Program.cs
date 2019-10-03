@@ -28,7 +28,7 @@ namespace Aluno
              Console.Write("Entre com a bimestre:  ");
              int bimestre = int.Parse(Console.ReadLine());
              Aluno aluno3 = new Aluno(Nome,Cpf,Curso);
-             aluno3.setNotas(bimestre,notas);
+             aluno3.setNotas(bimestre,notass);
 
              Console.WriteLine("Nome: " + aluno3.Nome);
              Console.WriteLine("CPF: " + aluno3.Cpf);

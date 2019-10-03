@@ -1,0 +1,11 @@
+C:\Users\44346823858\Documents\Exercicios\Exercicios de Matriz\VetorNPosicoes\bin\Debug\netcoreapp2.2\VetorNPosicoes.deps.json
+C:\Users\44346823858\Documents\Exercicios\Exercicios de Matriz\VetorNPosicoes\bin\Debug\netcoreapp2.2\VetorNPosicoes.runtimeconfig.json
+C:\Users\44346823858\Documents\Exercicios\Exercicios de Matriz\VetorNPosicoes\bin\Debug\netcoreapp2.2\VetorNPosicoes.runtimeconfig.dev.json
+C:\Users\44346823858\Documents\Exercicios\Exercicios de Matriz\VetorNPosicoes\bin\Debug\netcoreapp2.2\VetorNPosicoes.dll
+C:\Users\44346823858\Documents\Exercicios\Exercicios de Matriz\VetorNPosicoes\bin\Debug\netcoreapp2.2\VetorNPosicoes.pdb
+C:\Users\44346823858\Documents\Exercicios\Exercicios de Matriz\VetorNPosicoes\obj\Debug\netcoreapp2.2\VetorNPosicoes.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\Exercicios de Matriz\VetorNPosicoes\obj\Debug\netcoreapp2.2\VetorNPosicoes.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\Exercicios de Matriz\VetorNPosicoes\obj\Debug\netcoreapp2.2\VetorNPosicoes.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\Exercicios de Matriz\VetorNPosicoes\obj\Debug\netcoreapp2.2\VetorNPosicoes.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\Exercicios de Matriz\VetorNPosicoes\obj\Debug\netcoreapp2.2\VetorNPosicoes.dll
+C:\Users\44346823858\Documents\Exercicios\Exercicios de Matriz\VetorNPosicoes\obj\Debug\netcoreapp2.2\VetorNPosicoes.pdb

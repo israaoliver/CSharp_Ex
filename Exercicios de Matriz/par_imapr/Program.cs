@@ -10,7 +10,7 @@ namespace par_imapr
             int impares = 0;
             int[] numeros = new int [6];
             
-         
+        
 
             for (int i = 0; i < 6; i++)
             {
@@ -19,7 +19,7 @@ namespace par_imapr
                 
                 if ((numeros[i] % 2) == 0)
                 {
-                   pares += 1;
+                pares += 1;
                 }
                 else
                 {
@@ -28,7 +28,7 @@ namespace par_imapr
             }
             Console.WriteLine($"Números pares: {pares} || Números ímpares: {impares}");
 
-   
+
 
 
 

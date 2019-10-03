@@ -25,7 +25,7 @@ namespace Aluno
         }
 
         //Metodo de acesso
-        public int[] getNotas(){return notas;}
+        public int[] getNotas(){return notass;}
 
         public void setNotas(int bi, int nota){
             int i = bi -1;
