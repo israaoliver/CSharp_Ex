@@ -1,4 +1,4 @@
-namespace Byte_Bank
+namespace Byte_Bank_Correct
 {
     public class ContaCorrente
     {
@@ -16,18 +16,28 @@ namespace Byte_Bank
             this.Numero = Numero;
             this.Saldo = 0.0;
         }
-        
-        public bool VerificarSaque(double saldoSaque)
-        {
-            this.Saldo -= saldoSaque;
-            if(saldoSaque > 0){
+
+        public double Deposito(double valor){
+            return this.Saldo += valor;
+        }
+
+        public bool Saque(double valor){
+            if(this.Saldo >= valor){
+                this.Saldo -= valor;
                 return true;
-                
-        
             } else{
                 return false;
             }
-        }
+        } 
+
+        public bool Tranferencia(ContaCorrente contaDestino, double valor){
+            if(this.Saque(valor)){
+                contaDestino.Deposito(valor);
+                return true;
+            } else{
+                return false;
+            }
+        } 
 
     }
 }

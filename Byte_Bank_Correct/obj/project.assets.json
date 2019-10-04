@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\44346823858\\Documents\\Exercicios\\Byte-Bank\\Byte-Bank.csproj",
-      "projectName": "Byte-Bank",
-      "projectPath": "C:\\Users\\44346823858\\Documents\\Exercicios\\Byte-Bank\\Byte-Bank.csproj",
+      "projectUniqueName": "C:\\Users\\44346823858\\Documents\\Exercicios\\Byte_Bank_Correct\\Byte_Bank_Correct.csproj",
+      "projectName": "Byte_Bank_Correct",
+      "projectPath": "C:\\Users\\44346823858\\Documents\\Exercicios\\Byte_Bank_Correct\\Byte_Bank_Correct.csproj",
       "packagesPath": "C:\\Users\\44346823858\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\44346823858\\Documents\\Exercicios\\Byte-Bank\\obj\\",
+      "outputPath": "C:\\Users\\44346823858\\Documents\\Exercicios\\Byte_Bank_Correct\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

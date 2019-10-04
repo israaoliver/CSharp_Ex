@@ -7,7 +7,6 @@ namespace login_cadastro
         static void Main(string[] args)
         {
             string admlogin = "admin";
-            string admpasswd = "admin";
 
             Console.WriteLine("Entre com o usuário: ");
             string login = Console.ReadLine();
