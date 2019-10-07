@@ -1,0 +1,11 @@
+C:\Users\44346823858\Documents\Exercicios\TodoListt\bin\Debug\netcoreapp2.2\TodoListt.deps.json
+C:\Users\44346823858\Documents\Exercicios\TodoListt\bin\Debug\netcoreapp2.2\TodoListt.runtimeconfig.json
+C:\Users\44346823858\Documents\Exercicios\TodoListt\bin\Debug\netcoreapp2.2\TodoListt.runtimeconfig.dev.json
+C:\Users\44346823858\Documents\Exercicios\TodoListt\bin\Debug\netcoreapp2.2\TodoListt.dll
+C:\Users\44346823858\Documents\Exercicios\TodoListt\bin\Debug\netcoreapp2.2\TodoListt.pdb
+C:\Users\44346823858\Documents\Exercicios\TodoListt\obj\Debug\netcoreapp2.2\TodoListt.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\TodoListt\obj\Debug\netcoreapp2.2\TodoListt.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\TodoListt\obj\Debug\netcoreapp2.2\TodoListt.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\TodoListt\obj\Debug\netcoreapp2.2\TodoListt.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\TodoListt\obj\Debug\netcoreapp2.2\TodoListt.dll
+C:\Users\44346823858\Documents\Exercicios\TodoListt\obj\Debug\netcoreapp2.2\TodoListt.pdb
