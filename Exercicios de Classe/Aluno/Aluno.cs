@@ -11,12 +11,6 @@ namespace Aluno
 
 
         //contrutor
-        public Aluno(string Nome, string Cpf){
-            this.Nome = Nome;
-            this.Cpf = Cpf;
-            Notas = new int [4];
-        }
-
         public Aluno(string Nome, string Cpf, String Curso){
             this.Nome = Nome;
             this.Cpf = Cpf;
@@ -36,7 +30,7 @@ namespace Aluno
                 //Condição de Erro;
                 throw new ArgumentOutOfRangeException($"{nameof(Notas)} must be  between 0 and 10.");
             } else {
-                this.Notas[indice] = nota;
+                this.Notas[i] = nota;
 
             }
         }
