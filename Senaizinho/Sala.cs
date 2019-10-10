@@ -1,33 +1,80 @@
+using System.Threading;
 using System;
 namespace Senaizinho
 {
     public class Sala
     {
-        public int capacidadeAtual{get;set;} 
-        public int capacidadeTotal{get;set;} 
-        public int numeroSala{get;set;}
-        public string[] Alunos {get;set;}
+        public int capacidadeAtual;
+        public int capacidadeTotal;
+        public int numeroSala;
+        public string[] Alunos;
 
-
-
-        public Sala(int capacidadeAtual, int capacidadeTotal)
+        public Sala(int numeroSala, int capacidadeTotal)
         {
-            this.capacidadeAtual = capacidadeAtual;
+            this.numeroSala = numeroSala;
             this.capacidadeTotal = capacidadeTotal;
+            this.capacidadeAtual = this.capacidadeTotal;
+            this.Alunos = new string[capacidadeTotal];
+            
         }
-
-        public bool AlocarAluno(string alocar)
+        
+        public string AlocarAluno(string NomeAluno)
         {
-            if(){
 
+            int index = 0;
+
+            if(capacidadeAtual > 0){
+                foreach (string aluno in this.Alunos)
+                {
+                    if(aluno == ""){
+                        this.Alunos[index] = NomeAluno;
+                        break;
+                    }
+                    index++;
+                }
+                this.capacidadeAtual--;
+                return "ok";
+            } else{
+                return "LOTADO";
             }
         }
         
-        public bool RemoverAluno(string remover)
-        {}
+        public string RemoverAluno(string NomeAluno)
+        {
+            int index = 0;
 
-        public bool MostrarAlunos(string mostrar)
-        {}
+            if(this.capacidadeAtual == this.capacidadeTotal){
+                return "SALA_VAZIA";
+            }
+
+            foreach (string aluno in this.Alunos)
+            {
+                if(NomeAluno == aluno)
+                {
+                    this.Alunos[index] = "";
+                    return "OK";
+                }
+                index++;
+            }
+            return "NAO_ENCONTRADO";
+            
+        }
+        public string MostrarAlunos()
+        {
+            
+            string listaAlunos = "";
+
+            foreach (string aluno in this.Alunos)
+            {
+                if(aluno != "")
+                {
+                    listaAlunos = listaAlunos + Alunos + " ";
+                }
+            }
+            listaAlunos.TrimEnd();
+            return listaAlunos;
+        }
+
 
     }
 }

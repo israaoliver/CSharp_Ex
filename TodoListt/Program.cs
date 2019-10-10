@@ -59,6 +59,7 @@ namespace TodoList
 
                     case 3:
                         System.Console.WriteLine("GoodBye!");
+                        SaveItem(todoList,filePath);
                     break;
                     default:
                     System.Console.WriteLine("Opção inválida");
@@ -74,10 +75,10 @@ namespace TodoList
             int count = 1;
             System.Console.WriteLine("Todo List");
             System.Console.WriteLine();
-            System.Console.WriteLine($"ID{"",2} Titulo{"",12} Notas");
+            System.Console.WriteLine($"ID{"",2} Titulo{"",13} Notas");
             foreach (TodoItem item in todoList)
             {
-                System.Console.WriteLine($"{count, 3}: {item.Titulo, -15} - {item.Nota}");
+                System.Console.WriteLine($"{count, 2}: {item.Titulo, -15} -- {item.Nota}");
                 count++;
                 
             }
@@ -130,5 +131,37 @@ namespace TodoList
                 
             } while (true);
         }
+
+        public static void SaveItem(List<TodoItem> lista, string filePath)
+        {
+            List<string> linhas = new List<string>();
+
+            foreach(TodoItem item in lista)
+            {
+                string titulo = "\"" + item.Titulo + "\"";
+                string nota = "\"" +  item.Nota + "\"";
+                linhas.Add(titulo + "," + nota);
+            }
+            File.WriteAllLines(filePath, linhas);
+
+            string tryAgain = "n";            
+            do
+            {
+                
+            try{
+                File.WriteAllLines(filePath, linhas);
+            }catch(IOException e){
+
+                System.Console.WriteLine("Erro na gravação do arquivo.");
+                System.Console.WriteLine(e.Message);
+
+                do{
+                    System.Console.WriteLine("Deseja tentar novamente (s/n)?");
+                    tryAgain = Console.ReadLine().ToLower();
+                    
+                } while (tryAgain == "s" || tryAgain == "n");               
+            }
+            } while (tryAgain !="n");
     }
+}
 }
