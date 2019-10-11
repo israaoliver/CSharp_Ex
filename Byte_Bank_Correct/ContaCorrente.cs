@@ -3,7 +3,7 @@ namespace Byte_Bank_Correct
     public class ContaCorrente
     {
 
-        public string Titular  {get;set;}
+        public Cliente Titular  {get;set;}
         public int Agencia {get;set;}
         public int Numero {get;set;}
         private double _Saldo;
@@ -14,7 +14,7 @@ namespace Byte_Bank_Correct
 
         }
 
-        public ContaCorrente(string Titular, int Agencia, int Numero)
+        public ContaCorrente(Cliente Titular, int Agencia, int Numero)
         {
             this.Titular = Titular;
             this.Agencia = Agencia;
@@ -22,17 +22,31 @@ namespace Byte_Bank_Correct
             this._Saldo = 0.0;
         }
 
-        public double Deposito(double valor){
-            return this._Saldo += valor;
+        public bool Deposito(double valor){
+
+            if(valor >=0)
+            {
+                this._Saldo += valor;
+                return true;
+            } 
+            else
+            {
+                return false;
+            }
         }
 
         public bool Saque(double valor){
+            if (valor >= 0)
+            {
+                
             if(this._Saldo >= valor){
                 this._Saldo -= valor;
                 return true;
             } else{
                 return false;
             }
+            } return false;
+            
         } 
 
         public bool Tranferencia(ContaCorrente contaDestino, double valor){

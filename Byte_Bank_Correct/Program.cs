@@ -44,35 +44,36 @@ namespace Byte_Bank_Correct
             System.Console.Write("Entre com a conta: ");
             int conta = int.Parse(Console.ReadLine());
             
-            ContaCorrente contaCorrente1 = new ContaCorrente(cliente1.Nome,agencia,conta);
+            ContaCorrente contaCorrente1 = new ContaCorrente(cliente1,agencia,conta);
             double saldo;
+            bool depositou = true;
             do
             {
                 System.Console.Write("Entre com o saldo: ");
                 saldo = double.Parse(Console.ReadLine());
-                if (saldo > 0){
-                    contaCorrente1.Deposito(saldo);
-                } else{
+                depositou = contaCorrente1.Deposito(saldo);
+                if (!depositou){
+
                     System.Console.WriteLine("Valor do saldo deve ser positivo!");
                 }
                 
-            } while (saldo < 0);
+            } while (!depositou);
 
             System.Console.WriteLine("Saldo Atualizado!");
             System.Console.WriteLine();
             #endregion
 
             Cliente cliente2 = new Cliente("Cesar","123.123.123-12","1@a.com");
-            ContaCorrente contaCorrente2 = new ContaCorrente(cliente2.Nome,123,321);
+            ContaCorrente contaCorrente2 = new ContaCorrente(cliente2,123,321);
 
             #region Depósito
-            string usuario = contaCorrente1.Titular;
+            Cliente usuario = contaCorrente1.Titular;
             System.Console.WriteLine("ByteBank - Depósito em Conta");
             System.Console.WriteLine($"Bem Vindo - {usuario}");
             System.Console.WriteLine($"Agencia {contaCorrente1.Agencia} Conta: {contaCorrente1.Titular}");
             System.Console.WriteLine($"Saldo: {contaCorrente1.Saldo}");
             System.Console.WriteLine();
-            System.Console.WriteLine("Digite o valor do Depósito: ");
+            System.Console.Write("Digite o valor do Depósito: ");
             double valor = double.Parse(Console.ReadLine());
             contaCorrente1.Deposito(valor);
             System.Console.WriteLine();
@@ -86,7 +87,7 @@ namespace Byte_Bank_Correct
             System.Console.WriteLine($"Agencia {contaCorrente1.Agencia} Conta: {contaCorrente1.Titular}");
             System.Console.WriteLine($"Saldo: {contaCorrente1.Saldo}");
             System.Console.WriteLine();
-            System.Console.WriteLine("Digite o valor do Saque: ");
+            System.Console.Write("Digite o valor do Saque: ");
             valor = double.Parse(Console.ReadLine());
             contaCorrente1.Saque(valor);
             System.Console.WriteLine();
@@ -102,7 +103,7 @@ namespace Byte_Bank_Correct
             System.Console.WriteLine($"Agencia {contaCorrente1.Agencia} Conta: {contaCorrente1.Titular}");
             System.Console.WriteLine($"Saldo: {contaCorrente1.Saldo}");
             System.Console.WriteLine();
-            System.Console.WriteLine("Digite o valor da Transferência: ");
+            System.Console.Write("Digite o valor da Transferência: ");
             valor = double.Parse(Console.ReadLine());
             if(contaCorrente1.Tranferencia(contaCorrente2,valor)){
                 System.Console.WriteLine("Transferência Efetuada.");
@@ -117,6 +118,6 @@ namespace Byte_Bank_Correct
             #endregion
 
 
+        }
     }
-}
 }

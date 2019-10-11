@@ -9,3 +9,9 @@ C:\Users\44346823858\Documents\Exercicios\2 - classe\Aluno\bin\Debug\netcoreapp2
 C:\Users\44346823858\Documents\Exercicios\2 - classe\Aluno\bin\Debug\netcoreapp2.2\Aluno.pdb
 C:\Users\44346823858\Documents\Exercicios\2 - classe\Aluno\obj\Debug\netcoreapp2.2\Aluno.dll
 C:\Users\44346823858\Documents\Exercicios\2 - classe\Aluno\obj\Debug\netcoreapp2.2\Aluno.pdb
+C:\Users\44346823858\Documents\Exercicios\Exercicios de Classe\Aluno\obj\Debug\netcoreapp2.2\Aluno.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\Exercicios de Classe\Aluno\obj\Debug\netcoreapp2.2\Aluno.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\Exercicios de Classe\Aluno\obj\Debug\netcoreapp2.2\Aluno.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\Exercicios de Classe\Aluno\obj\Debug\netcoreapp2.2\Aluno.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\Exercicios de Classe\Aluno\obj\Debug\netcoreapp2.2\Aluno.dll
+C:\Users\44346823858\Documents\Exercicios\Exercicios de Classe\Aluno\obj\Debug\netcoreapp2.2\Aluno.pdb
