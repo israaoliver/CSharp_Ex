@@ -26,14 +26,15 @@ namespace Senaizinho
             if(capacidadeAtual > 0){
                 foreach (string aluno in this.Alunos)
                 {
-                    if(aluno == ""){
+                    if(aluno == "")
+                    {
                         this.Alunos[index] = NomeAluno;
                         break;
                     }
                     index++;
                 }
                 this.capacidadeAtual--;
-                return "ok";
+                return "OK";
             } else{
                 return "LOTADO";
             }

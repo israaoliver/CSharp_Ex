@@ -44,7 +44,8 @@ namespace Senaizinho
                 
             }
         }
-        public void CadastrarSala(){}
+        public void CadastrarSala()
+        {}
         public void AlocarAluno(){}
         public void RemoverAluno(){}
         public void VerificarSalas(){}

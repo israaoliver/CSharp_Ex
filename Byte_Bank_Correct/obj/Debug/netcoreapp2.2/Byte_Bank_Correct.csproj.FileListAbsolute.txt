@@ -2,3 +2,10 @@ C:\Users\44346823858\Documents\Exercicios\Byte_Bank_Correct\obj\Debug\netcoreapp
 C:\Users\44346823858\Documents\Exercicios\Byte_Bank_Correct\obj\Debug\netcoreapp2.2\Byte_Bank_Correct.csproj.CoreCompileInputs.cache
 C:\Users\44346823858\Documents\Exercicios\Byte_Bank_Correct\obj\Debug\netcoreapp2.2\Byte_Bank_Correct.AssemblyInfoInputs.cache
 C:\Users\44346823858\Documents\Exercicios\Byte_Bank_Correct\obj\Debug\netcoreapp2.2\Byte_Bank_Correct.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\Byte_Bank_Correct\bin\Debug\netcoreapp2.2\Byte_Bank_Correct.deps.json
+C:\Users\44346823858\Documents\Exercicios\Byte_Bank_Correct\bin\Debug\netcoreapp2.2\Byte_Bank_Correct.runtimeconfig.json
+C:\Users\44346823858\Documents\Exercicios\Byte_Bank_Correct\bin\Debug\netcoreapp2.2\Byte_Bank_Correct.runtimeconfig.dev.json
+C:\Users\44346823858\Documents\Exercicios\Byte_Bank_Correct\bin\Debug\netcoreapp2.2\Byte_Bank_Correct.dll
+C:\Users\44346823858\Documents\Exercicios\Byte_Bank_Correct\bin\Debug\netcoreapp2.2\Byte_Bank_Correct.pdb
+C:\Users\44346823858\Documents\Exercicios\Byte_Bank_Correct\obj\Debug\netcoreapp2.2\Byte_Bank_Correct.dll
+C:\Users\44346823858\Documents\Exercicios\Byte_Bank_Correct\obj\Debug\netcoreapp2.2\Byte_Bank_Correct.pdb

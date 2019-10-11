@@ -4,16 +4,37 @@ namespace Byte_Bank_Correct
 {
     public class Cliente
     {
-        public string Nome  {get;set;}
-        public string Cpf   {get;set;}
-        public string Email {get;set;}
-        public string Senha {get;set;}
+        private string _Nome  ;
+        private string _Cpf   ;
+        private string _Email ;
+        private string _Senha;
+
+        public string Senha{
+            
+            get {return _Senha;}
+        }
+
+        public string Cpf
+        {
+            get {return _Cpf;}
+            set { _Cpf = value;}
+        }
+        public string Nome
+        {
+            get {return _Nome;}
+            set { _Nome = value;}
+        }
+        public string Email
+        {
+            get {return _Email;}
+            
+        }
         
         public Cliente(string Nome, string Cpf, string Email)
         {
-            this.Nome = Nome;
+            this._Nome = Nome;
             this.Cpf = Cpf;
-            this.Email = Email;
+            this._Email = Email;
         }
 
         
@@ -21,7 +42,7 @@ namespace Byte_Bank_Correct
         public bool TrocaSenha(string senha)
         {
             if((senha.Length > 6) && (senha.Length < 16)){
-                this.Senha = senha;
+                this._Senha = senha;
                 return true;
             } else{
                 return false;
