@@ -24,7 +24,7 @@ namespace faixa_etaria
             if(idade <=2){
                 Console.WriteLine("Você é um Recém-Nacido");
                 Console.WriteLine($"Com {idade} anos");
-                  
+                
             } else if(idade <=11){
                 Console.WriteLine("Você é Criança");
                 Console.WriteLine($"Com {idade} anos");

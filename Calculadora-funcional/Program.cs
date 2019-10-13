@@ -13,58 +13,58 @@ namespace Calculadora_funcional
             String oper;
             
 
-           Console.WriteLine("Digite o 1º número:");
-           num1 = int.Parse(Console.ReadLine());
-           Console.WriteLine("Digite o 2º número:");
-           num2 = int.Parse(Console.ReadLine());
-           Console.WriteLine("Digite o operador:");
-           oper = Console.ReadLine();
+        Console.WriteLine("Digite o 1º número:");
+        num1 = int.Parse(Console.ReadLine());
+        Console.WriteLine("Digite o 2º número:");
+        num2 = int.Parse(Console.ReadLine());
+        Console.WriteLine("Digite o operador:");
+        oper = Console.ReadLine();
 
-           while(!(oper == "+"||oper =="-" ||oper =="*"||oper =="/"||oper=="%")){
-               Console.WriteLine("Digite uma operão valida!!!!");
-               oper = Console.ReadLine();
-           }
+        while(!(oper == "+"||oper =="-" ||oper =="*"||oper =="/"||oper=="%")){
+            Console.WriteLine("Digite uma operão valida!!!!");
+            oper = Console.ReadLine();
+        }
 
-           switch (oper)
-           {
-               case "+":
-               
-                calculo = num1 + num2;
-                Console.WriteLine($"{num1}+{num2} = " + calculo);
-               break;
-               
-               case "-":
-               
-                calculo = num1 - num2;
-                Console.WriteLine($"{num1}-{num2} = " + calculo);
-                 break;
-               
-               case "*":
-               
+        switch (oper)
+        {
+            case "+":
+            
+            calculo = num1 + num2;
+            Console.WriteLine($"{num1}+{num2} = " + calculo);
+            break;
+            
+            case "-":
+            
+            calculo = num1 - num2;
+            Console.WriteLine($"{num1}-{num2} = " + calculo);
+                break;
+            
+            case "*":
+            
                 calculo = num1 * num2;
                 Console.WriteLine($"{num1}*{num2} = " + calculo);
                 break;
-               
-               case "/":
-               
-                   calculo = num1 / num2;
-                   Console.WriteLine($"{num1}/{num2} = " + calculo);
-                   break;
-               
-               case "%":
-               
-                   calculo = num1 % num2;
-                   Console.WriteLine($"{num1}%{num2} = " + calculo);
-                   break;
-               
-               default:
-               
-                   Console.WriteLine("Por Favor digite uma operação valida!!");
-                   break;
+            
+            case "/":
+            
+                calculo = num1 / num2;
+                Console.WriteLine($"{num1}/{num2} = " + calculo);
+                break;
+            
+            case "%":
+            
+                calculo = num1 % num2;
+                Console.WriteLine($"{num1}%{num2} = " + calculo);
+                break;
+            
+            default:
+            
+                Console.WriteLine("Por Favor digite uma operação valida!!");
+                break;
 
-                  
-                   
-           }
+                
+                
+        }
 
 
         }
