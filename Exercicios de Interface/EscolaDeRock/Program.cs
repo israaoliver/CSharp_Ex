@@ -48,17 +48,17 @@ namespace EscolaDeRock
 
             do
             {
+                #region Area do menu
                 bool formacaoEscolhida = false;
                 do
                 {
-                    #region Area do menu
                     
                     Console.Clear();
                     System.Console.WriteLine(menuBar);
-                    Console.BackgroundColor = ConsoleColor.DarkCyan;
                     Console.BackgroundColor = ConsoleColor.Black;
-                    System.Console.WriteLine("                   Seja Bem-vindo!");
-                    System.Console.WriteLine("                   Escolha uma formação:         ");
+                    Console.BackgroundColor = ConsoleColor.DarkCyan;
+                    System.Console.WriteLine("                   Seja Bem-vindo!                  ");
+                    System.Console.WriteLine("                   Escolha uma formação:            ");
                     Console.ResetColor();
                     System.Console.WriteLine(menuBar);
 
@@ -79,11 +79,11 @@ namespace EscolaDeRock
 
                     switch (key)
                     {
-                        case ConsoleKey.UpArrow:
+                        case ConsoleKey.W:
                             opcaoFormacaoSelecionada = opcaoFormacaoSelecionada == 0 ? opcaoFormacaoSelecionada : --opcaoFormacaoSelecionada;
                         break;
 
-                        case ConsoleKey.DownArrow:
+                        case ConsoleKey.S:
                             opcaoFormacaoSelecionada = opcaoFormacaoSelecionada == opcoesFormacao.Count -1? opcaoFormacaoSelecionada : ++opcaoFormacaoSelecionada;
                         break;
                         case ConsoleKey.Enter:
@@ -93,11 +93,88 @@ namespace EscolaDeRock
                         
                     }
                         
-                    #endregion
                     
-                } while (!formacaoEscolhida);                
+                } while (!formacaoEscolhida);
+                #endregion
+
+                #region Adiciona os instrumentos a foemação escolhida.
+                bool bandaCompleta = false;
+                int vagas = 0;
+
+
+                switch(opcaoFormacaoSelecionada)
+                {
+                    #region 
+                    case 0:
+                    vagas = 2;
+                    do
+                    {
+                        ExibirMenuDeInstrumentos();
+
+                        System.Console.WriteLine($"Digite código do instrumento de Harmonia: ");
+                        int codigo = int.Parse(Console.ReadLine());
+                        var instrumento = Deposito.Instrumentos[codigo];
+
+                        Type interfaceEncontrada = instrumento.GetType().GetInterface("IHarmonia");
+
+                        if (interfaceEncontrada != null)
+                        {
+                            vagas--;
+                            ColocarNaBanda((IHarmonia)instrumento);
+                        }
+                        else
+                        {
+                            System.Console.WriteLine("O instrumento selecionado não é de Harmonia.");
+                            continue;
+                        }
+
+                        System.Console.WriteLine($"Digite código do instrumento de Percussão:  ");
+                        codigo = int.Parse(Console.ReadLine());
+                        instrumento = Deposito.Instrumentos[codigo];
+
+                        interfaceEncontrada = instrumento.GetType().GetInterface("IPercussao");
+
+                        if (interfaceEncontrada != null)
+                        {
+                            vagas--;
+                            ColocarNaBanda((IPercussao)instrumento);
+                        }
+                        else
+                        {
+                            System.Console.WriteLine("O instrumento selecionado não é de Percussão.");
+                        }
+                            continue;
+
+
+
+
+                        
+                    } while (!bandaCompleta);
+
+                    break;
+                    #endregion
+                }
+
+                #endregion                
             }while(!querSair);
 
+        }
+
+        public static void ExibirMenuDeInstrumentos()
+        {}
+
+        public static bool ColocarNaBanda(IHarmonia harmonia)
+        {
+            harmonia.TocarAcordes();
+            System.Console.WriteLine(harmonia.GetType().BaseType + "foi incluido");
+            return true;
+        }
+
+        public static bool ColocarNaBanda(IPercussao percussao)
+        {
+            percussao.ManterRitmo();
+            System.Console.WriteLine(percussao.GetType().BaseType + "foi incluido");
+            return true;
         }
     }
 }
