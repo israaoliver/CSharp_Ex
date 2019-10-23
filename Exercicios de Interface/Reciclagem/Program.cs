@@ -50,7 +50,7 @@ namespace Reciclagem
 
             int opcaoLixoSelecionado = 0; //todo: onde começa selecionado
 
-            string linha = "============================================";
+            string linha = "#############################################";
 
             do
             {
@@ -65,8 +65,8 @@ namespace Reciclagem
                 System.Console.WriteLine(linha);
                 Console.BackgroundColor = ConsoleColor.DarkBlue;
                 Console.ForegroundColor = ConsoleColor.White;
-                System.Console.WriteLine("    Eae fala o lixo que vc vai reciclar     ");
-                System.Console.WriteLine("     Escolha o lixo:                        ");
+                System.Console.WriteLine("#    Eae fala o lixo que vc vai reciclar    #");
+                System.Console.WriteLine("#    Escolha o lixo:                        #");
                 Console.ResetColor();
                 System.Console.WriteLine(linha);
 
@@ -139,7 +139,7 @@ namespace Reciclagem
                     break;
                     
                 }
-                System.Console.WriteLine("Lixo foi reciclado!");
+                System.Console.WriteLine("Lixo foi reciclado!                   ");
                 Console.ReadLine();
                 Console.ResetColor();
                 
@@ -152,34 +152,34 @@ namespace Reciclagem
         public static void ColocarNoLixo(IVidro lixo)
         {
             lixo.reciclarVidro();
-            System.Console.WriteLine("Indo Reciclar");
+            System.Console.WriteLine("Indo Reciclar.                         ");
         }
 
         public static void ColocarNoLixo(IPlastico lixo)
         {
             lixo.reciclarPlastico();
-            System.Console.WriteLine("Indo Reciclar");
+            System.Console.WriteLine("Indo Reciclar.                         ");
         }
 
         public static void ColocarNoLixo(IIndefinido lixo)
         {
             lixo.reciclarIndefinido();
-            System.Console.WriteLine("Indo Reciclar");
+            System.Console.WriteLine("Indo Reciclar.                        ");
         }
         public static void ColocarNoLixo(IMetal lixo)
         {
             lixo.reciclarMetal();
-            System.Console.WriteLine("Indo Reciclar");
+            System.Console.WriteLine("Indo Reciclar.                         ");
         }
         public static void ColocarNoLixo(IOrganico lixo)
         {
             lixo.reciclarOrganico();
-            System.Console.WriteLine("Indo Reciclar");
+            System.Console.WriteLine("Indo Reciclar.                        ");
         }
         public static void ColocarNoLixo(IPapel lixo)
         {
             lixo.reciclarPapel();
-            System.Console.WriteLine("Indo Reciclar");
+            System.Console.WriteLine("Indo Reciclar.                        ");
         }
 
         public static string TratarTituloMenu(string titulo)

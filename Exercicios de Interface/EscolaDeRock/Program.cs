@@ -1,17 +1,21 @@
-﻿using System;
+﻿/**
+ * Existe um erro na adição dos instrumentos musicais que pode levar a um loop infinito.
+ */
+
+using System;
 using System.Collections.Generic;
-using EscolaDeRock.Models;
 using EscolaDeRock.Interfaces;
+using EscolaDeRock.Models;
 
 namespace EscolaDeRock
 {
-    enum FormacaoEnum : int
+    enum FormacaoEnum : uint
     {
         TRIO = 3,
         QUARTETO
     };
 
-    enum InstrumentosEnum : int
+    enum InstrumentosEnum : uint
     {
         BAIXO,
         BATERIA,
@@ -20,161 +24,301 @@ namespace EscolaDeRock
         TECLADO,
         TAMBORES,
         VIOLÃO
-    };
+    }
 
-    enum CategoriaEnum : int
+    enum CategoriaEnum : uint
     {
         HARMONIA,
         PERCUSSÃO,
         MELODIA
-    };  
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
+            #region MyRegion
+
+            bool querSair = false;
             string[] itensMenuPrincipal = Enum.GetNames(typeof(FormacaoEnum));
             string[] itensMenuCategoria = Enum.GetNames(typeof(CategoriaEnum));
 
-            var opcoesFormacao = new List<string>()
-            {
+            var opcoesFormacao = new List<string>() {
                 "    - 0                         ",
                 "    - 1                     "
             };
-            
 
             int opcaoFormacaoSelecionada = 0;
-            string menuBar = "=========================================================";
-            bool querSair = true;
+
+            string menuBar = "===================================";
 
             do
             {
-                #region Area do menu
                 bool formacaoEscolhida = false;
+                #region Controla o menu do tipo de formação.
                 do
                 {
-                    
                     Console.Clear();
+
                     System.Console.WriteLine(menuBar);
-                    Console.BackgroundColor = ConsoleColor.Black;
                     Console.BackgroundColor = ConsoleColor.DarkCyan;
-                    System.Console.WriteLine("                   Seja Bem-vindo!                  ");
-                    System.Console.WriteLine("                   Escolha uma formação:            ");
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    System.Console.WriteLine("     Seja bem-vindo(a) Vocal!      ");
+                    System.Console.WriteLine("        Escolha uma formação:      ");
                     Console.ResetColor();
                     System.Console.WriteLine(menuBar);
 
-                    for(int i = 0; i < opcoesFormacao.Count; i++)
+                    #region Troca a cor do item do menu.
+                    for (int i = 0; i < opcoesFormacao.Count; i++)
                     {
-                        string titulo = itensMenuPrincipal[i];
-                        if(opcaoFormacaoSelecionada == i){
+                        string titulo = TratarTituloMenu(itensMenuPrincipal[i]);
 
-                            Console.BackgroundColor = ConsoleColor.DarkRed;
-                            System.Console.WriteLine(opcoesFormacao[opcaoFormacaoSelecionada].Replace("-",">").Replace(i.ToString(),titulo));
-                            Console.ResetColor();
-                        } else {
-                            Console.WriteLine(opcoesFormacao[i].Replace(i.ToString(), titulo));
+                        if (opcaoFormacaoSelecionada == i)
+                        {
+                            DestacarOpcao(opcoesFormacao[opcaoFormacaoSelecionada].Replace("-", ">").Replace(i.ToString(), titulo));
+                        }
+                        else
+                        {
+                            System.Console.WriteLine(opcoesFormacao[i].Replace(i.ToString(), titulo));
                         }
                     }
+                    #endregion
 
+                #endregion
+
+                    #region Lê a tecla pressionada pelo usuário e verifica a opção selecionada.
                     var key = Console.ReadKey(true).Key;
 
                     switch (key)
                     {
-                        case ConsoleKey.W:
+                        case ConsoleKey.UpArrow:
                             opcaoFormacaoSelecionada = opcaoFormacaoSelecionada == 0 ? opcaoFormacaoSelecionada : --opcaoFormacaoSelecionada;
-                        break;
+                            break;
 
-                        case ConsoleKey.S:
-                            opcaoFormacaoSelecionada = opcaoFormacaoSelecionada == opcoesFormacao.Count -1? opcaoFormacaoSelecionada : ++opcaoFormacaoSelecionada;
-                        break;
+                        case ConsoleKey.DownArrow:
+                            opcaoFormacaoSelecionada = opcaoFormacaoSelecionada == opcoesFormacao.Count - 1 ? opcaoFormacaoSelecionada : ++opcaoFormacaoSelecionada;
+                            break;
+
                         case ConsoleKey.Enter:
                             formacaoEscolhida = true;
-                        break;
-                        
-                        
+                            break;
                     }
-                        
-                    
+                    #endregion
+
                 } while (!formacaoEscolhida);
                 #endregion
-
-                #region Adiciona os instrumentos a foemação escolhida.
+                
                 bool bandaCompleta = false;
                 int vagas = 0;
 
+                #region Adiciona os instrumentos a formação escolhida.
 
-                switch(opcaoFormacaoSelecionada)
+                switch (opcaoFormacaoSelecionada)
                 {
-                    #region 
+                    #region Cadastro de instrumentos para os trios.
                     case 0:
-                    vagas = 2;
-                    do
-                    {
-                        ExibirMenuDeInstrumentos();
-
-                        System.Console.WriteLine($"Digite código do instrumento de Harmonia: ");
-                        int codigo = int.Parse(Console.ReadLine());
-                        var instrumento = Deposito.Instrumentos[codigo];
-
-                        Type interfaceEncontrada = instrumento.GetType().GetInterface("IHarmonia");
-
-                        if (interfaceEncontrada != null)
+                        vagas = 2;
+                        do
                         {
-                            vagas--;
-                            ColocarNaBanda((IHarmonia)instrumento);
-                        }
-                        else
-                        {
-                            System.Console.WriteLine("O instrumento selecionado não é de Harmonia.");
-                            continue;
-                        }
+                            ExibirMenuDeInstrumentos();
 
-                        System.Console.WriteLine($"Digite código do instrumento de Percussão:  ");
-                        codigo = int.Parse(Console.ReadLine());
-                        instrumento = Deposito.Instrumentos[codigo];
+                            Console.Write($"Digite código do instrumento de Harmonia: ");
+                            int codigo = int.Parse(Console.ReadLine());
+                            var instrumento = Deposito.Instrumentos[codigo];
 
-                        interfaceEncontrada = instrumento.GetType().GetInterface("IPercussao");
+                            Type interfaceEncontrada = instrumento.GetType().GetInterface("IHarmonia");
 
-                        if (interfaceEncontrada != null)
-                        {
-                            vagas--;
-                            ColocarNaBanda((IPercussao)instrumento);
-                        }
-                        else
-                        {
-                            System.Console.WriteLine("O instrumento selecionado não é de Percussão.");
-                        }
-                            continue;
+                            if (interfaceEncontrada != null)
+                            {
+                                vagas--;
+                                ColocarNaBanda((IHarmonia)instrumento);
+                            }
+                            else
+                            {
+                                Console.WriteLine("O instrumento selecionado não é de Harmonia.");
+                                continue;
+                            }
 
+                            Console.Write($"Digite código do instrumento de Percussao: ");
+                            codigo = int.Parse(Console.ReadLine());
+                            instrumento = Deposito.Instrumentos[codigo];
+                            interfaceEncontrada = instrumento.GetType().GetInterface("IPercussao");
 
+                            if (interfaceEncontrada != null)
+                            {
+                                vagas--;
+                                ColocarNaBanda((IPercussao)instrumento);
+                            }
+                            else
+                            {
+                                Console.WriteLine("O instrumento selecionado não é de Percussao."); 
+                                continue;
+                            }
 
+                            if (vagas == 0)
+                            {
+                                bandaCompleta = true;
+                            }
 
-                        
-                    } while (!bandaCompleta);
+                        } while (!bandaCompleta);
 
-                    break;
+                        System.Console.WriteLine("Sua banda está completa!");
+                        Console.ReadLine();
+                        break;
                     #endregion
+
+                    #region Cadastro de instrumentos para quartetos.
+                    case 1:
+                        vagas = 3;
+                        do
+                        {
+
+                            ExibirMenuDeInstrumentos();
+                            System.Console.Write($"Digite o código do instrumento para a categoria Harmonia: ");
+                            int codigo = int.Parse(Console.ReadLine());
+                            var instrumento = Deposito.Instrumentos[codigo];
+                            Type interfaceEncontrada = instrumento.GetType().GetInterface("IHarmonia");
+
+                            if (interfaceEncontrada != null)
+                            {
+                                vagas--;
+                                ColocarNaBanda((IHarmonia)instrumento);
+                            }
+                            else
+                            {
+                                Console.WriteLine("O instrumento selecionado não é de Harmonia.");
+                                continue;
+                            }
+
+                            System.Console.Write($"Digite o código do instrumento para a categoria Percussao:");
+                            codigo = int.Parse(Console.ReadLine());
+                            instrumento = Deposito.Instrumentos[codigo];
+                            interfaceEncontrada = instrumento.GetType().GetInterface("IPercussao");
+
+                            if (interfaceEncontrada != null)
+                            {
+                                vagas--;
+                                ColocarNaBanda((IPercussao)instrumento);
+                            }
+                            else
+                            {
+                                Console.WriteLine("O instrumento selecionado não é de Percussão.");
+                                continue;
+                            }
+
+                            System.Console.Write($"Digite o código do instrumento para a categoria Melodia:");
+                            codigo = int.Parse(Console.ReadLine());
+                            instrumento = Deposito.Instrumentos[codigo];
+                            interfaceEncontrada = instrumento.GetType().GetInterface("IMelodia");
+
+                            if (interfaceEncontrada != null)
+                            {
+                                vagas--;
+                                ColocarNaBanda((IMelodia)instrumento);
+                            }
+                            else
+                            {
+                                Console.WriteLine("O instrumento selecionado não é de Melodia.");
+                                continue;
+                            }
+
+                            if (vagas == 0)
+                            {
+                                bandaCompleta = true;
+                            }
+
+                        } while (!bandaCompleta);
+                        System.Console.WriteLine("Sua banda está completa!");
+                        Console.ReadLine();
+                        break;
+                    #endregion
+
+                }
+                #endregion
+                Console.WriteLine("Deseja montar outra configuração? (S/N)");
+                string opcao = Console.ReadLine().ToLower();
+
+                if(opcao == "n")
+                {
+                    querSair = true;
                 }
 
-                #endregion                
-            }while(!querSair);
+            } while (!querSair);
 
         }
 
-        public static void ExibirMenuDeInstrumentos()
-        {}
-
+        #region Adiciona instrumentos na banda.
         public static bool ColocarNaBanda(IHarmonia harmonia)
         {
             harmonia.TocarAcordes();
-            System.Console.WriteLine(harmonia.GetType().BaseType + "foi incluido");
+            System.Console.WriteLine(harmonia.GetType().BaseType + " foi incluído");
             return true;
         }
 
         public static bool ColocarNaBanda(IPercussao percussao)
         {
             percussao.ManterRitmo();
-            System.Console.WriteLine(percussao.GetType().BaseType + "foi incluido");
+            System.Console.WriteLine(percussao.GetType().BaseType + " foi incluído");
             return true;
         }
+
+        public static bool ColocarNaBanda(IMelodia melodia)
+        {
+            melodia.TocarSolo();
+            System.Console.WriteLine(melodia.GetType().BaseType + " foi incluído");
+            return true;
+        }
+        #endregion
+
+        public static void DestacarOpcao(string opcao)
+        {
+            Console.BackgroundColor = ConsoleColor.DarkRed;
+            System.Console.WriteLine(opcao);
+            Console.ResetColor();
+        }
+
+        public static void ExibirMenuDeInstrumentos()
+        {
+            var instrumentos = Enum.GetNames(typeof(InstrumentosEnum));
+            int codigo = 1;
+            string menuInstrumentoBorda = "##############################";
+
+            System.Console.WriteLine(menuInstrumentoBorda);
+            System.Console.WriteLine("#                            #");
+            System.Console.WriteLine("#        Instrumentos        #");
+            System.Console.WriteLine("#                            #");
+            System.Console.WriteLine(menuInstrumentoBorda);
+
+            foreach (var instrumento in instrumentos)
+            {
+                System.Console.WriteLine($"  {codigo++}.{TratarTituloMenu(instrumento)}");
+            }
+
+            System.Console.WriteLine(menuInstrumentoBorda);
+        }
+
+        public static void ExibirMenuDeCategorias()
+        {
+            var categorias = Enum.GetNames(typeof(CategoriaEnum));
+            int codigo = 1;
+            string menuInstrumentoBorda = "##############################";
+            System.Console.WriteLine(menuInstrumentoBorda);
+            System.Console.WriteLine("#          Categorias        #");
+
+            foreach (var categoria in categorias)
+            {
+
+                System.Console.WriteLine($"  {codigo++}.{TratarTituloMenu(categoria)}");
+            }
+
+            System.Console.WriteLine(menuInstrumentoBorda);
+
+        }
+
+        public static string TratarTituloMenu(string titulo)
+        {
+            return System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(titulo.Replace("_", " ").ToLower());
+        }
+
     }
 }

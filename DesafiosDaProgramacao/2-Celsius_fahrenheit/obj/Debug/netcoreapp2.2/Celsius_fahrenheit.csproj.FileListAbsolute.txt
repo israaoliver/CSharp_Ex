@@ -1,0 +1,11 @@
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Celsius_fahrenheit\bin\Debug\netcoreapp2.2\Celsius_fahrenheit.deps.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Celsius_fahrenheit\bin\Debug\netcoreapp2.2\Celsius_fahrenheit.runtimeconfig.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Celsius_fahrenheit\bin\Debug\netcoreapp2.2\Celsius_fahrenheit.runtimeconfig.dev.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Celsius_fahrenheit\bin\Debug\netcoreapp2.2\Celsius_fahrenheit.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Celsius_fahrenheit\bin\Debug\netcoreapp2.2\Celsius_fahrenheit.pdb
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Celsius_fahrenheit\obj\Debug\netcoreapp2.2\Celsius_fahrenheit.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Celsius_fahrenheit\obj\Debug\netcoreapp2.2\Celsius_fahrenheit.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Celsius_fahrenheit\obj\Debug\netcoreapp2.2\Celsius_fahrenheit.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Celsius_fahrenheit\obj\Debug\netcoreapp2.2\Celsius_fahrenheit.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Celsius_fahrenheit\obj\Debug\netcoreapp2.2\Celsius_fahrenheit.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Celsius_fahrenheit\obj\Debug\netcoreapp2.2\Celsius_fahrenheit.pdb

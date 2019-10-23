@@ -9,9 +9,9 @@ namespace Reciclagem.Models
         public bool reciclarIndefinido()
         {
             Console.BackgroundColor = ConsoleColor.Gray;
-            Console.ForegroundColor = ConsoleColor.White;
-            System.Console.WriteLine("Jogado na lixeira de Plastico vermelha");            
-            System.Console.WriteLine("Lixo de Plástico dendo Reciclado");
+            Console.ForegroundColor = ConsoleColor.Black;
+            System.Console.WriteLine("Jogado na lixeira indefinida vermelha.");            
+            System.Console.WriteLine("Guarda-Chuva sendo Reciclado...        ");
             return true;
         }
     }

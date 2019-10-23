@@ -10,8 +10,8 @@ namespace Reciclagem.Models
         {
             Console.BackgroundColor = ConsoleColor.Green; // todo: cor de fundo do texto
             Console.ForegroundColor = ConsoleColor.Black; // todo: cor das letras
-            System.Console.WriteLine("Jogado na lixeira de Vidro verde");
-            System.Console.WriteLine("Lixo de Vidro sendo Reciclado");
+            System.Console.WriteLine("Jogado na lixeira de Vidro verde.     ");
+            System.Console.WriteLine("Garrafa sendo Reciclado...            ");
             Console.ResetColor();
             return true;
         }

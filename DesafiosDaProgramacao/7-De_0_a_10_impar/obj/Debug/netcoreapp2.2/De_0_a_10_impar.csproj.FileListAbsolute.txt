@@ -1,0 +1,11 @@
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\7-De_0_a_10_impar\bin\Debug\netcoreapp2.2\De_0_a_10_impar.deps.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\7-De_0_a_10_impar\bin\Debug\netcoreapp2.2\De_0_a_10_impar.runtimeconfig.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\7-De_0_a_10_impar\bin\Debug\netcoreapp2.2\De_0_a_10_impar.runtimeconfig.dev.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\7-De_0_a_10_impar\bin\Debug\netcoreapp2.2\De_0_a_10_impar.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\7-De_0_a_10_impar\bin\Debug\netcoreapp2.2\De_0_a_10_impar.pdb
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\7-De_0_a_10_impar\obj\Debug\netcoreapp2.2\De_0_a_10_impar.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\7-De_0_a_10_impar\obj\Debug\netcoreapp2.2\De_0_a_10_impar.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\7-De_0_a_10_impar\obj\Debug\netcoreapp2.2\De_0_a_10_impar.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\7-De_0_a_10_impar\obj\Debug\netcoreapp2.2\De_0_a_10_impar.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\7-De_0_a_10_impar\obj\Debug\netcoreapp2.2\De_0_a_10_impar.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\7-De_0_a_10_impar\obj\Debug\netcoreapp2.2\De_0_a_10_impar.pdb

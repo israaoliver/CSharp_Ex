@@ -9,9 +9,9 @@ namespace Reciclagem.Models
         public bool reciclarPapel()
         {
             Console.BackgroundColor = ConsoleColor.Blue;
-            Console.ForegroundColor = ConsoleColor.Black;
-            System.Console.WriteLine("Jogado na lixeira de Papel Azul"); 
-            System.Console.WriteLine("Lixo de Papel sendo Reciclado");
+            Console.ForegroundColor = ConsoleColor.White;
+            System.Console.WriteLine("Jogado na lixeira de Papel Azul.      "); 
+            System.Console.WriteLine("Papelão sendo Reciclado...            ");
             return true;
         }
     }

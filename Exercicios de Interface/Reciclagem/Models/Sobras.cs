@@ -10,8 +10,8 @@ namespace Reciclagem.Models
         {
             Console.BackgroundColor = ConsoleColor.White;
             Console.ForegroundColor = ConsoleColor.Black;
-            System.Console.WriteLine("Jogado na lixeira de Orgânicos marrom"); 
-            System.Console.WriteLine("Lixo orgânico sendo mandado para a composteira");
+            System.Console.WriteLine("Jogado na lixeira de Orgânicos marrom.           "); 
+            System.Console.WriteLine("Lixo orgânico sendo mandado para a composteira...");
             return true;
         }
     }

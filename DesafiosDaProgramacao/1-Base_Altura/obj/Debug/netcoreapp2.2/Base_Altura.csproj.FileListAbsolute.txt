@@ -1,0 +1,11 @@
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Base_Altura\bin\Debug\netcoreapp2.2\Base_Altura.deps.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Base_Altura\bin\Debug\netcoreapp2.2\Base_Altura.runtimeconfig.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Base_Altura\bin\Debug\netcoreapp2.2\Base_Altura.runtimeconfig.dev.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Base_Altura\bin\Debug\netcoreapp2.2\Base_Altura.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Base_Altura\bin\Debug\netcoreapp2.2\Base_Altura.pdb
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Base_Altura\obj\Debug\netcoreapp2.2\Base_Altura.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Base_Altura\obj\Debug\netcoreapp2.2\Base_Altura.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Base_Altura\obj\Debug\netcoreapp2.2\Base_Altura.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Base_Altura\obj\Debug\netcoreapp2.2\Base_Altura.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Base_Altura\obj\Debug\netcoreapp2.2\Base_Altura.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Base_Altura\obj\Debug\netcoreapp2.2\Base_Altura.pdb
