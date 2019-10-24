@@ -1,0 +1,22 @@
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Gravidade\obj\Debug\netcoreapp2.2\Gravidade.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Gravidade\obj\Debug\netcoreapp2.2\Gravidade.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Gravidade\obj\Debug\netcoreapp2.2\Gravidade.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Gravidade\obj\Debug\netcoreapp2.2\Gravidade.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Gravidade\bin\Debug\netcoreapp2.2\Gravidade.deps.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Gravidade\bin\Debug\netcoreapp2.2\Gravidade.runtimeconfig.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Gravidade\bin\Debug\netcoreapp2.2\Gravidade.runtimeconfig.dev.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Gravidade\bin\Debug\netcoreapp2.2\Gravidade.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Gravidade\bin\Debug\netcoreapp2.2\Gravidade.pdb
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Gravidade\obj\Debug\netcoreapp2.2\Gravidade.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\Gravidade\obj\Debug\netcoreapp2.2\Gravidade.pdb
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\9 - Gravidade\bin\Debug\netcoreapp2.2\Gravidade.deps.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\9 - Gravidade\bin\Debug\netcoreapp2.2\Gravidade.runtimeconfig.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\9 - Gravidade\bin\Debug\netcoreapp2.2\Gravidade.runtimeconfig.dev.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\9 - Gravidade\bin\Debug\netcoreapp2.2\Gravidade.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\9 - Gravidade\bin\Debug\netcoreapp2.2\Gravidade.pdb
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\9 - Gravidade\obj\Debug\netcoreapp2.2\Gravidade.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\9 - Gravidade\obj\Debug\netcoreapp2.2\Gravidade.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\9 - Gravidade\obj\Debug\netcoreapp2.2\Gravidade.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\9 - Gravidade\obj\Debug\netcoreapp2.2\Gravidade.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\9 - Gravidade\obj\Debug\netcoreapp2.2\Gravidade.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\9 - Gravidade\obj\Debug\netcoreapp2.2\Gravidade.pdb

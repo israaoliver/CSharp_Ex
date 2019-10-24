@@ -1,0 +1,11 @@
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\MultiploDeTres\bin\Debug\netcoreapp2.2\MultiploDeTres.deps.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\MultiploDeTres\bin\Debug\netcoreapp2.2\MultiploDeTres.runtimeconfig.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\MultiploDeTres\bin\Debug\netcoreapp2.2\MultiploDeTres.runtimeconfig.dev.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\MultiploDeTres\bin\Debug\netcoreapp2.2\MultiploDeTres.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\MultiploDeTres\bin\Debug\netcoreapp2.2\MultiploDeTres.pdb
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\MultiploDeTres\obj\Debug\netcoreapp2.2\MultiploDeTres.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\MultiploDeTres\obj\Debug\netcoreapp2.2\MultiploDeTres.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\MultiploDeTres\obj\Debug\netcoreapp2.2\MultiploDeTres.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\MultiploDeTres\obj\Debug\netcoreapp2.2\MultiploDeTres.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\MultiploDeTres\obj\Debug\netcoreapp2.2\MultiploDeTres.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\MultiploDeTres\obj\Debug\netcoreapp2.2\MultiploDeTres.pdb

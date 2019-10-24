@@ -13,8 +13,8 @@ namespace Impar_par
 
             while(num!=0){
 
-                 Console.WriteLine("Digite o numero 0: ");
-                 num = int.Parse(Console.ReadLine());
+                Console.WriteLine("Digite o numero 0: ");
+                num = int.Parse(Console.ReadLine());
 
             }
 

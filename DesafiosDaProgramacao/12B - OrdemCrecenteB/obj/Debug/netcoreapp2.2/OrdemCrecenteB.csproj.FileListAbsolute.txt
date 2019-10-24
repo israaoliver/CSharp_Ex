@@ -1,0 +1,11 @@
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\12B - OrdemCrecenteB\bin\Debug\netcoreapp2.2\OrdemCrecenteB.deps.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\12B - OrdemCrecenteB\bin\Debug\netcoreapp2.2\OrdemCrecenteB.runtimeconfig.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\12B - OrdemCrecenteB\bin\Debug\netcoreapp2.2\OrdemCrecenteB.runtimeconfig.dev.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\12B - OrdemCrecenteB\bin\Debug\netcoreapp2.2\OrdemCrecenteB.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\12B - OrdemCrecenteB\bin\Debug\netcoreapp2.2\OrdemCrecenteB.pdb
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\12B - OrdemCrecenteB\obj\Debug\netcoreapp2.2\OrdemCrecenteB.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\12B - OrdemCrecenteB\obj\Debug\netcoreapp2.2\OrdemCrecenteB.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\12B - OrdemCrecenteB\obj\Debug\netcoreapp2.2\OrdemCrecenteB.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\12B - OrdemCrecenteB\obj\Debug\netcoreapp2.2\OrdemCrecenteB.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\12B - OrdemCrecenteB\obj\Debug\netcoreapp2.2\OrdemCrecenteB.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\12B - OrdemCrecenteB\obj\Debug\netcoreapp2.2\OrdemCrecenteB.pdb

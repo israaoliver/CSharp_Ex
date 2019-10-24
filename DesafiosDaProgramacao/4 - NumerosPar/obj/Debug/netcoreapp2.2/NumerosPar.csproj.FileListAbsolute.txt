@@ -1,0 +1,11 @@
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\NumerosPar\obj\Debug\netcoreapp2.2\NumerosPar.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\NumerosPar\obj\Debug\netcoreapp2.2\NumerosPar.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\NumerosPar\obj\Debug\netcoreapp2.2\NumerosPar.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\NumerosPar\obj\Debug\netcoreapp2.2\NumerosPar.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\NumerosPar\bin\Debug\netcoreapp2.2\NumerosPar.deps.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\NumerosPar\bin\Debug\netcoreapp2.2\NumerosPar.runtimeconfig.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\NumerosPar\bin\Debug\netcoreapp2.2\NumerosPar.runtimeconfig.dev.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\NumerosPar\bin\Debug\netcoreapp2.2\NumerosPar.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\NumerosPar\bin\Debug\netcoreapp2.2\NumerosPar.pdb
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\NumerosPar\obj\Debug\netcoreapp2.2\NumerosPar.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\NumerosPar\obj\Debug\netcoreapp2.2\NumerosPar.pdb

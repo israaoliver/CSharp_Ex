@@ -1,0 +1,11 @@
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\OrdemCrecente\bin\Debug\netcoreapp2.2\OrdemCrecente.deps.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\OrdemCrecente\bin\Debug\netcoreapp2.2\OrdemCrecente.runtimeconfig.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\OrdemCrecente\bin\Debug\netcoreapp2.2\OrdemCrecente.runtimeconfig.dev.json
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\OrdemCrecente\bin\Debug\netcoreapp2.2\OrdemCrecente.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\OrdemCrecente\bin\Debug\netcoreapp2.2\OrdemCrecente.pdb
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\OrdemCrecente\obj\Debug\netcoreapp2.2\OrdemCrecente.csprojAssemblyReference.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\OrdemCrecente\obj\Debug\netcoreapp2.2\OrdemCrecente.csproj.CoreCompileInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\OrdemCrecente\obj\Debug\netcoreapp2.2\OrdemCrecente.AssemblyInfoInputs.cache
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\OrdemCrecente\obj\Debug\netcoreapp2.2\OrdemCrecente.AssemblyInfo.cs
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\OrdemCrecente\obj\Debug\netcoreapp2.2\OrdemCrecente.dll
+C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\OrdemCrecente\obj\Debug\netcoreapp2.2\OrdemCrecente.pdb
