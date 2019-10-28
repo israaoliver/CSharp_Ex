@@ -6,7 +6,7 @@ namespace Triângulo_Invertido
     {
         static void Main(string[] args)
         {
-            int nh,n = 0 ;
+            int nh = 0 ;
 
             string asterisco ="*";
 

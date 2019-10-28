@@ -6,7 +6,7 @@ namespace Aluno
     {
         static void Main(string[] args)
         {
-            Aluno aluno1 = new Aluno("Deus Gamer", "435.456.768-98");
+            Aluno aluno1 = new Aluno("Deus Gamer", "435.456.768-98","Prog2");
             Aluno aluno2 = new Aluno("Ser Gamer","876.234.546-00","Prog1");
 
             Console.WriteLine("Nome: " + aluno1.Nome);
@@ -28,7 +28,7 @@ namespace Aluno
             Console.Write("Entre com a bimestre:  ");
             int bimestre = int.Parse(Console.ReadLine());
             Aluno aluno3 = new Aluno(Nome,Cpf,Curso);
-            aluno3.setNotas(bimestre,Notas);
+            aluno3.setNotas(bimestre,nota);
 
             Console.WriteLine("Nome: " + aluno3.Nome);
             Console.WriteLine("CPF: " + aluno3.Cpf);

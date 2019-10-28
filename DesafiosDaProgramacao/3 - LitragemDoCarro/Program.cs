@@ -21,7 +21,7 @@ namespace LitragemDoCarro
             double km = double.Parse(Console.ReadLine());
 
             double distancia = time * km;
-            double gastos = distancia/12;
+            double gastos = distancia/8;
             
             System.Console.WriteLine($"A {km}km/h durante {time}horas,");
             System.Console.WriteLine($"Você percorreu {distancia}km é");

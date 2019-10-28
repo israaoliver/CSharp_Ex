@@ -9,3 +9,13 @@ C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\LitragemDoCarro\
 C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\LitragemDoCarro\obj\Debug\netcoreapp2.2\LitragemDoCarro.AssemblyInfo.cs
 C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\LitragemDoCarro\obj\Debug\netcoreapp2.2\LitragemDoCarro.dll
 C:\Users\44346823858\Documents\Exercicios\DesafiosDaProgramacao\LitragemDoCarro\obj\Debug\netcoreapp2.2\LitragemDoCarro.pdb
+C:\Users\Junior\Documents\Docs\C#\Exercicios\DesafiosDaProgramacao\3 - LitragemDoCarro\bin\Debug\netcoreapp2.2\LitragemDoCarro.deps.json
+C:\Users\Junior\Documents\Docs\C#\Exercicios\DesafiosDaProgramacao\3 - LitragemDoCarro\bin\Debug\netcoreapp2.2\LitragemDoCarro.runtimeconfig.json
+C:\Users\Junior\Documents\Docs\C#\Exercicios\DesafiosDaProgramacao\3 - LitragemDoCarro\bin\Debug\netcoreapp2.2\LitragemDoCarro.runtimeconfig.dev.json
+C:\Users\Junior\Documents\Docs\C#\Exercicios\DesafiosDaProgramacao\3 - LitragemDoCarro\bin\Debug\netcoreapp2.2\LitragemDoCarro.dll
+C:\Users\Junior\Documents\Docs\C#\Exercicios\DesafiosDaProgramacao\3 - LitragemDoCarro\bin\Debug\netcoreapp2.2\LitragemDoCarro.pdb
+C:\Users\Junior\Documents\Docs\C#\Exercicios\DesafiosDaProgramacao\3 - LitragemDoCarro\obj\Debug\netcoreapp2.2\LitragemDoCarro.csprojAssemblyReference.cache
+C:\Users\Junior\Documents\Docs\C#\Exercicios\DesafiosDaProgramacao\3 - LitragemDoCarro\obj\Debug\netcoreapp2.2\LitragemDoCarro.AssemblyInfoInputs.cache
+C:\Users\Junior\Documents\Docs\C#\Exercicios\DesafiosDaProgramacao\3 - LitragemDoCarro\obj\Debug\netcoreapp2.2\LitragemDoCarro.AssemblyInfo.cs
+C:\Users\Junior\Documents\Docs\C#\Exercicios\DesafiosDaProgramacao\3 - LitragemDoCarro\obj\Debug\netcoreapp2.2\LitragemDoCarro.dll
+C:\Users\Junior\Documents\Docs\C#\Exercicios\DesafiosDaProgramacao\3 - LitragemDoCarro\obj\Debug\netcoreapp2.2\LitragemDoCarro.pdb
